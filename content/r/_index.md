@@ -24,9 +24,9 @@ I have contributed a little bit to open-source projects. But now I am contributi
 
 # Achievements
 
-- I participated in an coding Event **CODE MENIA - 2024**, which was held at Jagran Institute of Management, Kanpur. I was able to achieve 4th position among participants from around 10 diffirent colleges. See <a href='/hugo-website/Certificate1.jpg' alt='Coding Competition Certificate' target='_blank'>Certificate</a>.
+- I participated in an coding Event **CODE MENIA - 2024**, which was held at Jagran Institute of Management, Kanpur. I was able to achieve 4th position among participants from around 10 diffirent colleges. See <a href='/Certificate1.jpg' alt='Coding Competition Certificate' target='_blank'>Certificate</a>.
 <br><br>
-- Other than this I play certain sports. <a href='https://cricheroes.com/player-profile/2460291/saif-ali-khan/stats' alt='Coding Competition Certificate' target='_blank'>Cricket Profile</a> | <a href='/hugo-website/Certificate2.jpg' alt='Javelin Certficate Silver Medal' target='_blank'>Javelin</a>
+- Other than this I play certain sports. <a href='https://cricheroes.com/player-profile/2460291/saif-ali-khan/stats' alt='Coding Competition Certificate' target='_blank'>Cricket Profile</a> | <a href='/Certificate2.jpg' alt='Javelin Certficate Silver Medal' target='_blank'>Javelin</a>
 
 # Certifications
 
