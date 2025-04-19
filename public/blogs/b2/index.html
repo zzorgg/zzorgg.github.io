@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/hugo-website/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=hugo-website/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/f-8/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=f-8/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,15 +9,15 @@
 <meta name="keywords" content="">
 <meta name="description" content="A guide to syncing your notes or files across different devices using Obsidian.">
 <meta name="author" content="Saif Ali Khan">
-<link rel="canonical" href="http://localhost:1313/hugo-website/blogs/b2/">
-<link crossorigin="anonymous" href="/hugo-website/assets/css/stylesheet.4bde3d6b68da01168147f9c4a8a87549c7306cbade7997302a09fff13a13266f.css" integrity="sha256-S949a2jaARaBR/nEqKh1SccwbLreeZcwKgn/8ToTJm8=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/hugo-website/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/hugo-website/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/hugo-website/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/hugo-website/apple-touch-icon.png">
+<link rel="canonical" href="http://localhost:1313/f-8/blogs/b2/">
+<link crossorigin="anonymous" href="/f-8/assets/css/stylesheet.4bde3d6b68da01168147f9c4a8a87549c7306cbade7997302a09fff13a13266f.css" integrity="sha256-S949a2jaARaBR/nEqKh1SccwbLreeZcwKgn/8ToTJm8=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://localhost:1313/f-8/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/f-8/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/f-8/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:1313/f-8/apple-touch-icon.png">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/hugo-website/blogs/b2/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/f-8/blogs/b2/">
 <noscript>
     <style>
         #theme-toggle,
@@ -29,13 +29,13 @@
 </noscript><meta property="og:title" content="How I take and sync my notes" />
 <meta property="og:description" content="A guide to syncing your notes or files across different devices using Obsidian." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/hugo-website/blogs/b2/" />
-<meta property="og:image" content="http://localhost:1313/hugo-website/Tech.png" /><meta property="article:section" content="blogs" />
+<meta property="og:url" content="http://localhost:1313/f-8/blogs/b2/" />
+<meta property="og:image" content="http://localhost:1313/f-8/Tech.png" /><meta property="article:section" content="blogs" />
 <meta property="article:published_time" content="2025-04-17T00:00:00+00:00" />
 <meta property="article:modified_time" content="2025-04-17T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary_large_image" />
-<meta name="twitter:image" content="http://localhost:1313/hugo-website/Tech.png" />
+<meta name="twitter:image" content="http://localhost:1313/f-8/Tech.png" />
 <meta name="twitter:title" content="How I take and sync my notes"/>
 <meta name="twitter:description" content="A guide to syncing your notes or files across different devices using Obsidian."/>
 
@@ -49,13 +49,13 @@
       "@type": "ListItem",
       "position":  1 ,
       "name": "Blogs",
-      "item": "http://localhost:1313/hugo-website/blogs/"
+      "item": "http://localhost:1313/f-8/blogs/"
     }, 
     {
       "@type": "ListItem",
       "position":  2 ,
       "name": "How I take and sync my notes",
-      "item": "http://localhost:1313/hugo-website/blogs/b2/"
+      "item": "http://localhost:1313/f-8/blogs/b2/"
     }
   ]
 }
@@ -73,7 +73,7 @@
   "articleBody": "1. Prerequisites Before you begin, ensure you have the following installed on your devices:\nObsidian (for note-taking) Git (for version control and syncing) iSH Shell (for Git on iOS) Termux (for Git on Android) 2. Why I Chose This Method Initially, I used VS Code and Markdown for note-taking. Over time, I explored alternatives like Notion and Standard Notes, but they didn’t suit my workflow. Eventually, I switched to Obsidian—a simple and efficient choice.\nHowever, I didn’t want to pay for Obsidian Sync. Instead, I set up Git-based syncing for my notes, and I realized others might find this approach useful too.\n3. Getting Started Step 1: Install Obsidian Download Obsidian based on your operating system:\nMobile:\niOS Android Desktop/Laptop:\nWindows macOS Linux: AppImage Snap Deb Flatpak Step 2: Install Git Download Git based on your operating system:\nMobile:\niOS: iSH Shell (it uses Alpine Linux, so we can install Git using apk add git) Android: Termux (install Git using pkg install git) Desktop/Laptop:\nWindows macOS Linux (I use Arch, so just sudo pacman -S git) 4. Setting Up Git-Based Syncing Step 1: Create an Obsidian Vault and Initialize Git First, create an Obsidian vault on your primary device (e.g., your PC or Mac). Navigate to the vault directory and initialize a Git repository: cd /path/to/your/obsidian-vault git init git add . git commit -m \"Initial commit\" git branch -M main git remote add origin git push -u origin main Step 2: Syncing Notes on iOS Download and install iSH Shell. Inside iSH, install Git using: apk add git Clone your Git repository to iSH: git clone iSH creates a storage folder inside iPhone storage. Copy the cloned vault to the Obsidian app’s folder manually. Whenever you update notes, pull the latest changes in iSH and copy them to the Obsidian folder again. Make sure to create the Obsidian vault inside On My iPhone location. Make sure you know the path of your cloned repo on iSH, mine is /home/notes. Step 3: Syncing Notes on Android Open Termux and install Git: pkg install git Clone the repository into a convenient location: git clone Open Obsidian and set the vault location to the cloned directory. Whenever you update notes, pull the latest changes. Step 4: Pull Changes You just need to write this command git pull origin main Step 5: Syncing Notes on Linux \u0026 Windows Clone the Git repository wherever you want. git clone Open Obsidian and set the vault location to the cloned directory. Since .obsidian settings are present in the repo, opening it in Obsidian will work seamlessly. To update and sync notes, simply pull or push changes via Git. 5. Conclusion This method allows you to sync notes across multiple devices without paying for Obsidian Sync. While it requires manual Git commands, it’s a powerful and cost-effective way to maintain version-controlled, cross-device note synchronization. Also never push changes from mobile phones. Only use laptop or pc or mac. I recommend using SSH for authentication. Instead of cloning with HTTPS, use git clone git@github.com:your-username/your-repo.git Set up SSH keys for secure, password-less authentication. 6. Resources ssh iSH SHell termux git obsidian For more details, read the official documentations. ",
   "wordCount" : "532",
   "inLanguage": "en",
-  "image":"http://localhost:1313/hugo-website/Tech.png","datePublished": "2025-04-17T00:00:00Z",
+  "image":"http://localhost:1313/f-8/Tech.png","datePublished": "2025-04-17T00:00:00Z",
   "dateModified": "2025-04-17T00:00:00Z",
   "author":{
     "@type": "Person",
@@ -81,14 +81,14 @@
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "http://localhost:1313/hugo-website/blogs/b2/"
+    "@id": "http://localhost:1313/f-8/blogs/b2/"
   },
   "publisher": {
     "@type": "Organization",
     "name": "Saif Ali Khan",
     "logo": {
       "@type": "ImageObject",
-      "url": "http://localhost:1313/hugo-website/favicon.ico"
+      "url": "http://localhost:1313/f-8/favicon.ico"
     }
   }
 }
@@ -129,8 +129,8 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/hugo-website/" accesskey="h" title="Saif Ali Khan">
-                <img src="http://localhost:1313/hugo-website/favicon.ico" alt="" aria-label="logo"
+            <a href="http://localhost:1313/f-8/" accesskey="h" title="Saif Ali Khan">
+                <img src="http://localhost:1313/f-8/favicon.ico" alt="" aria-label="logo"
                     height="18"
                     width="18">Saif Ali Khan</a>
             <div class="logo-switches">
@@ -138,17 +138,17 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/hugo-website/projects/" title="Projects">
+                <a href="http://localhost:1313/f-8/projects/" title="Projects">
                     <span>Projects</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/r/" title="Extra Miles">
+                <a href="http://localhost:1313/f-8/r/" title="Extra Miles">
                     <span>Extra Miles</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/hugo-website/blogs/" title="Blogs">
+                <a href="http://localhost:1313/f-8/blogs/" title="Blogs">
                     <span>Blogs</span>
                 </a>
             </li>
