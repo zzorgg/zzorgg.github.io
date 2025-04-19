@@ -1,0 +1,96 @@
+baseURL: "http://localhost:1313/hugo-website/"
+title: Saif Ali Khan
+theme: PaperMod
+
+enableInlineShortcodes: true
+enableRobotsTXT: true
+
+taxonomies:
+  tag: tags
+
+menu:
+  main:
+    - name: Projects
+      url: projects/
+      weight: 1
+    - name: Extra Miles
+      url: r/
+      weight: 2
+    - name: Blogs
+      url: blogs/
+      weight: 3
+
+params:
+  description: ""
+  author: Saif Ali Khan
+  # googleAnalyticsID: "G-XXXXX"
+  DateFormat: "January 2006"
+  defaultTheme: light
+  hideFooter: true
+  disableThemeToggle: true
+  ShowShareButtons: false
+  ShowReadingTime: false
+  disableSpecial1stPost: true
+  disableAnchoredHeadings: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowAllPagesInArchive: false
+  MainSections: ["books", "courses", "papers", "data"]
+  ShowToc: false
+  disableScrollToTop: true
+  TocOpen: true
+  ShowWordCount: false
+  UseHugoToc: true
+  comments: false
+  math: true
+  profileMode:
+    enabled: true
+    title: d/dx f(8) = saif
+    subtitle: "Hello there, I'm <b style='color: #008bff'>Saif</b>, currently an undergrad at <u>Dayanand Academy of Management Studies</u>. My interest include <i>algorithms</i>, <i>mathematics</i> and little bit of <i>physics</i>. Currenlty I am on my way to land a job as a <u>dev</u>, most probably I am aiming to be a good backend dev🧑‍💻. I have also contributed to open-source a little bit, and would probably contribute more in future.<br><br>If you're wondering about my alias, <b style='color: #008bff'>f8</b>, it comes from my fascination with function keys—F8 just stood out!. And as for <b style='color: #008bff'>d/dx f8 = saif</b>, it gives off a cool math-meets-tech vibe. While I'm not coding I play games like <i>RDR2</i>, <i>Max Payne</i>, <i>Tom Clancy</i>, etc. I am also in sports especially <b>Cricket</b>🏏. <br><br>Please don't hate me because I love to code in <b>Java</b>☕, but I'm also comfortable with C/C++, Go, Rust🦀 and Kotlin. People say, <u><span style='color:red'>'Ruby on Rails'</span></u> is the best overall backend framework, may be <b><span style='color: #c86060'>Laravel</span></b> or <span style='background-color: #0e382b; color: white; padding: 1px 4px; border-radius: 6px'>django</span> are the most used, but do you know about , <span style='color: #6bb13d'><b>Spring Boot 🍃</b></span>, if not please read their docs.<br><br>Don't laugh at my profile picture. It's a <b><span style='color: #ffd87b'>psyduck, </span></b> they always got that head pain, you can relate ;). When you are stuck at the same bug for a week, just to figure out a semi colon (;) was missing. <br>Thanks for a visit!"
+    imageUrl: "psyduck_final.png"
+    imageWidth: 180
+    imageHeight: 180
+    buttons:
+      - name: Projects
+        url: projects/
+      - name: Extra Miles
+        url: r/
+      - name: Blogs
+        url: blogs/
+
+  socialIcons:
+    - name: CV
+      url: cv.pdf
+    - name: Email
+      url: mailto:saif.khan16@outlook.com
+    - name: GitHub
+      url: https://github.com/f-ei8ht
+    - name: Twitter
+      url: https://x.com/saiiffff8
+    - name: Linkedin
+      url: https://www.linkedin.com/in/saif-ali-khaan/
+    - name: Leetcode
+      url: https://leetcode.com/u/f-8/
+
+  assets:
+    disableScrollBarStyle: true
+  cover:
+    hiddenInList: false
+    hiddenInSingle: true
+  label:
+    text: "Saif Ali Khan"
+    icon: favicon.ico
+    iconHeight: 18
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    guessSyntax: true
+    style: autumn
+  tableOfContents:
+    endLevel: 2
+    ordered: false
+    startLevel: 2

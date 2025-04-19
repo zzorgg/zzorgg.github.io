@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Saif Ali Khan</title>
+    <link>http://localhost:1313/hugo-website/extra-miles/</link>
+    <description>Recent content on Saif Ali Khan</description>
+    <generator>Hugo -- 0.128.2</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 17 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/hugo-website/extra-miles/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>DigiiDunia</title>
+      <link>http://localhost:1313/hugo-website/r/r1/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/hugo-website/r/r1/</guid>
+      <description>Worked on an E-learning platform on the frontend part using HTML, CSS, JS, BootStrap, Swiper.JS</description>
+    </item>
+  </channel>
+</rss>
