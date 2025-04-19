@@ -63,29 +63,3 @@ While the template should also work on other operating systems and with other ve
 
 The content of this repository is licensed under the terms of the MIT License.
 
-## Real-world implementations
-
-+ [Pascal Michaillat's website](https://pascalmichaillat.org/) ([source code](https://github.com/pmichaillat/pmichaillat.github.io))
-+ [Dylan Balla-Elliott's website](https://www.dballaelliott.com) ([source code](https://github.com/dballaelliott/site))
-+ [Rosa van den Ende's website](https://rosavandenende.github.io) ([source code](https://github.com/rosavandenende/rosavandenende.github.io))
-+ [Samia Kabir's website](https://samiakabir.com) ([source code](https://github.com/SamiaKabir/samiakabir.github.io))
-+ [Dylan Laplace Mermoud's website](https://dylanlaplacemermoud.github.io) ([source code](https://github.com/DylanLaplaceMermoud/dylanlaplacemermoud.github.io))
-+ [Maarten Goos's website](https://maartengoos.com) ([source code](https://github.com/MaartenGoos/website))
-+ [Aryan Ahadinia's website](https://aryanahadinia.github.io) ([source code](https://github.com/AryanAhadinia/AryanAhadinia.github.io))
-+ [Jun Wong's website](https://junwong.org) ([source code](https://github.com/junwong97/junwong97.github.io))
-+ [Erling Rennemo Jellum's website](https://erlingrj.github.io) ([source code](https://github.com/erlingrj/erlingrj.github.io))
-+ [Yangkeun Yun's website](https://yangkeunyun.github.io) ([source code](https://github.com/yangkeunyun/yangkeunyun.github.io))
-+ [Maghfira Ramadhani's website](https://maghfiraer.github.io) ([source code](https://github.com/maghfiraer/maghfiraer.github.io))
-+ [Ismael Moreno-Martinez's website](https://ismaelmorenomartinez.eu) ([source code](https://github.com/ismaelmorenomartinez/ismaelmorenomartinez.github.io))
-+ [Lucas Warwar's website](https://lucaswarwar.github.io) ([source code](https://github.com/lucaswarwar/lucaswarwar.github.io))
-+ [Franz Louis Cesista's website](https://leloykun.github.io) ([source code](https://github.com/leloykun/leloykun.github.io))
-+ [Gabe Sekeres's website](https://gabesekeres.com) ([source code](https://github.com/gsekeres/hugo_site))
-+ [Kevin Roice's website](https://kevroi.github.io) ([source code](https://github.com/kevroi/kevroi.github.io))
-+ [Daniel Barbosa's website](https://dacbarbosa.github.io) ([source code](https://github.com/dacbarbosa/dacbarbosa.github.io))
-+ [Wei Zhang's website](https://weizhang-econ.github.io) ([source code](https://github.com/weizhang-econ/weizhang-econ.github.io))
-+ [Ben Hermann's website](http://benhermann.eu) ([source code](https://github.com/bhermann/bhermann.github.io))
-+ [Kostas Bimpikis's website](https://stanford.edu/~kostasb/)
-+ [Pragathi Praveena's website](https://pragathipraveena.com)
-+ [Qiwei He's website](https://www.qiwei-he.com)
-+ [Pierre Bardier's website](https://pierrebard.github.io/pierre-bardier/)
-+ [Marek Wiewiórka's website](https://marekwiewiorka.org)

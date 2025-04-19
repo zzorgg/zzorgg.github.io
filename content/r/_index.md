@@ -32,23 +32,23 @@ I have contributed a little bit to open-source projects. But now I am contributi
 
 - *Summer Training Program* on **JAVA** at Dayanand Academy of Management Studies
   - Organisation Name : SkDeft Technologies
-  - See <a href='/hugo-website/Certificate3.jpg' alt='' target='_blank'>Certificate</a>
+  - See <a href='/Certificate3.jpg' alt='' target='_blank'>Certificate</a>
 <br><br>
 - *Training* - **Programming in C/C++**
   - Organisation Name : Internshala Trainings
-  - See <a href='/hugo-website/cpp.pdf' alt='C/C++ Certificate' target='_blank'>Certificate</a>
+  - See <a href='/cpp.pdf' alt='C/C++ Certificate' target='_blank'>Certificate</a>
 <br><br>
 - *Course* - **Programming with JavaScript**
   - Organisation Name : Coursera (Authorized by Meta)
-  - See <a href='/hugo-website/Javascript.pdf' alt='Javascript Certification' target='_blank'>Certificate</a>
+  - See <a href='/Javascript.pdf' alt='Javascript Certification' target='_blank'>Certificate</a>
 <br><br>
 - *Workshop* - **Cyber Security and Ethical Hacking**
   - Organisation Name : SkDeft Technologies
-  - See <a href='/hugo-website/Certificate4.jpg' alt='Cyber Security Workshop' target='_blank'>Certificate</a>
+  - See <a href='/Certificate4.jpg' alt='Cyber Security Workshop' target='_blank'>Certificate</a>
 <br><br>
 - **Employability Enhancement Programme**
   - Organisation Name : Centum Foundation
-  - See <a href='/hugo-website/Certificate5.jpg' alt='Employability Enhancement Centum Foundation' target='_blank'>Certificate</a>
+  - See <a href='/Certificate5.jpg' alt='Employability Enhancement Centum Foundation' target='_blank'>Certificate</a>
 
 # Others
 
