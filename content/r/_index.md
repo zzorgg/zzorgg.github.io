@@ -20,7 +20,7 @@
 
 I have contributed a little bit to open-source projects. But now I am contributing regularly because I found out it is pretty good. Also I applied for GSoC this year to <b>The JPF Team</b>.
 <br><br>
-[Contributions](/r1)
+[Contributions](r1)
 
 # Achievements
 
