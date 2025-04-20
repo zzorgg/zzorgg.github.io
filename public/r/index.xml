@@ -7,5 +7,12 @@
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <atom:link href="http://localhost:1313/r/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Contributions</title>
+      <link>http://localhost:1313/r/r1/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/r/r1/</guid>
+      <description>I have contributed a little bit to open source, but from this year I am contributing regularly because of GSoC. See my pull request&amp;rsquo;s under this section.</description>
+    </item>
   </channel>
 </rss>
