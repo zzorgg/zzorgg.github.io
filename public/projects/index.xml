@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Saif Ali Khan</title>
-    <link>http://localhost:1313/f-8/projects/</link>
+    <link>http://localhost:1313/projects/</link>
     <description>Recent content on Saif Ali Khan</description>
     <generator>Hugo -- 0.128.2</generator>
     <language>en</language>
     <lastBuildDate>Thu, 17 Apr 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/f-8/projects/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Smart Contact Manager</title>
-      <link>http://localhost:1313/f-8/projects/p1/</link>
+      <link>http://localhost:1313/projects/p1/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/f-8/projects/p1/</guid>
+      <guid>http://localhost:1313/projects/p1/</guid>
       <description>A contact manager written in [Java + SpringBoot] - (backend), [HTML, CSS, JS, Flowbite, Thymeleaf, TailwindCSS] - (frontend), [MySQL] - (Database).</description>
     </item>
     <item>
       <title>mathJX</title>
-      <link>http://localhost:1313/f-8/projects/p2/</link>
+      <link>http://localhost:1313/projects/p2/</link>
       <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/f-8/projects/p2/</guid>
+      <guid>http://localhost:1313/projects/p2/</guid>
       <description>A mathematical library written in Java, that will cover topics from middle school (Prime Numbers, Algebra, Mensuration, Logarithms) to topics that are taught in college (Newton Rapshon, Euler, Range Kutta)</description>
     </item>
   </channel>
