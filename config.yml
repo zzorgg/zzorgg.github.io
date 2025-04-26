@@ -61,7 +61,7 @@ params:
 
   socialIcons:
     - name: CV
-      url: cv.pdf
+      url: Saif_Ali_Khan_Resume.pdf
     - name: Email
       url: mailto:saif.khan16@outlook.com
     - name: GitHub
