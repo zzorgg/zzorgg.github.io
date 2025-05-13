@@ -18,7 +18,7 @@
 
 # Open Source Involvement
 
-I have contributed a little bit to open-source projects. But now I am contributing regularly because I found out it is pretty good. Also I applied for GSoC this year to <b>The JPF Team</b>.
+I have contributed a little bit to open-source projects. But now I am contributing regularly because I found out it is pretty good. Also I applied for GSoC this year to <b>The JPF Team</b>. And got selected so I will be contributing code at the JPF team this year.
 <br><br>
 [Contributions](r1)
 
