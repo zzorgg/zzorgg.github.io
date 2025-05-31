@@ -43,4 +43,5 @@
 
 .button:hover {
     background: var(--lightcolor);
+    color: var(--theme);
 }
