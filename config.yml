@@ -44,7 +44,7 @@ params:
   profileMode:
     enabled: true
     title: d/dx f(8) = saif
-    subtitle: "Hello there, I'm <b style='color: #008bff'>Saif</b>. My interest include <i>algorithms</i>, <i>java</i> and a little bit of <i>maths.</i><br>If you're wondering about my alias, <b style='color: #008bff'>f8</b>, the function key-F8 just stood out! <br>While I'm not coding I love to play games like <i>RDR2</i>, <i>Max Payne</i>, and <b>Cricket</b>.<br>I've been selected for <b style='color:#EA4335'>Google </b><b style='color:#fbbc05'>Summer </b><b style='color:#34A853'>of </b><b style='color:#4285F4'>Code</b> this year and will be contributing to the JPF team.<br><br>Please don't hate me because I use <b>Java</b>, as I'm also making myself comfortable with <b>Go</b> and <b>Rust</b>. People say, <span style='color:red'>Ruby on Rails</span> is the best overall backend framework, or may be <b><span style='color: #c86060'>Laravel</span></b> and <span style='background-color: #0e382b; color: white; padding: 1px 4px; border-radius: 6px'>django</span>. <br>Do you even know about <span style='color: #6bb13d'><b>Spring Boot</b></span> ?, if not please read their docs!!<br><br>Don't laugh at my profile pictu, it's a <b><span style='color: #ffd87b'>Psyduck. </span></b> They're always having a headache, if you've ever spent a week stuck on a bug just to realize it was a missing semicolon, you can probably relate ;)<br><br>Thanks for stopping by."
+    subtitle: "Hello there, I'm <b style='color: #008bff'>Saif</b>. My interest include <i>algorithms</i>, <i>java</i> and a little bit of <i>maths.</i><br>If you're wondering about my alias, <b style='color: #008bff'>f8</b>, the function key-F8 just stood out! <br>While I'm not coding I love to play games like <i>RDR2</i>, <i>Max Payne</i>, and <b>Cricket</b>.<br>I've been selected for <b style='color:#EA4335'>Google </b><b style='color:#fbbc05'>Summer </b><b style='color:#34A853'>of </b><b style='color:#4285F4'>Code</b> this year and will be contributing to the JPF team.<br><br>Please don't hate me because I use <b>Java</b>, as I'm also making myself comfortable with <b>Go</b> and <b>Rust</b>. People say, <span style='color:red'>Ruby on Rails</span> is the best overall backend framework, or may be <b><span style='color: #c86060'>Laravel</span></b> and <span style='background-color: #0e382b; color: white; padding: 1px 4px; border-radius: 6px'>django</span>. <br>Do you even know about <span style='color: #6bb13d'><b>Spring Boot</b></span> ?, if not please read their docs!!<br><br>Don't laugh at my profile picture, it's a <b><span style='color: #ffd87b'>Psyduck. </span></b> They're always having a headache, if you've ever spent a week stuck on a bug just to realize it was a missing semicolon, you can probably relate ;)<br><br>Thanks for stopping by."
     imageUrl: "psyduck_final.png"
     imageWidth: 180
     imageHeight: 180
@@ -56,7 +56,7 @@ params:
 
   socialIcons:
     - name: CV
-      url:
+      url: Resume.pdf
     - name: Email
       url: mailto:saif.khan16@outlook.com
     - name: GitHub
