@@ -6,15 +6,9 @@
 <br>
 <b>Frameworks/Softwares :</b> Spring Boot, Hibernate, JPA, MySQL
 <br>
-<b>Tools/Utilities :</b> Git, Github, Thymeleaf
-
-# Interests
-
-<b>Programming Languages :</b> Rust, Kotlin, Haskell, Ocaml, TypeScript, Python
+<b>Tools/Utilities :</b> Git, Github, Thymeleaf, Flowbite, Linux, Intelli J IDEA
 <br>
-<b>Frameworks/Softwares :</b> React , Angular, Django, Anchor, Solana
-<br>
-<b>Other :</b> Linux, Neovim, Mathematics, Physics, Flowbite
+<b>Interests :</b> Rust, Kotlin, Haskell, Ocaml, TypeScript, Neovim, Mathematics, Physics
 
 # Open Source Involvement
 
