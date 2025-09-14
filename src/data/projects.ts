@@ -14,17 +14,18 @@ export interface Project {
 }
 
 export const projects: Project[] = [
-  {
-    id: "smart-contact-manager",
-    title: "Smart Contact Manager",
-    description: "A secure, full-stack contact management web application. Features CRUD for contacts, authentication, and a responsive UI. Built with Spring Boot.",
-    technologies: ["Java", "Spring Boot", "Thymeleaf", "MySQL"],
-    startDate: "Jan 2025",
+   {
+    id: "bobbywear",
+    title: "bobbywear.com",
+    description: "A girls' wear manufacturing wholesale store catalog offering a wide range of dresses.",
+    technologies: ["Reactjs", "Tailwind CSS", "Vite", "JavaScript"],
+    startDate: "September 2025",
     status: "In Progress",
-    githubUrl: "https://github.com/zzorgg/SmartContactManager",
-    icon: "📱",
-    gradientFrom: "from-blue-100 to-blue-200",
-    gradientTo: "dark:from-blue-900 dark:to-blue-800"
+    githubUrl: "https://github.com/zzorgg/bobbywear",
+    liveUrl: "https://bobbywear.com",
+    icon: "👗",
+    gradientFrom: "from-pink-100 to-pink-200",
+    gradientTo: "dark:from-pink-900 dark:to-pink-800"
   },
   {
     id: "mathjx",
@@ -37,5 +38,17 @@ export const projects: Project[] = [
     icon: "🧮",
     gradientFrom: "from-green-100 to-green-200",
     gradientTo: "dark:from-green-900 dark:to-green-800"
+  },
+  {
+    id: "smart-contact-manager",
+    title: "Smart Contact Manager",
+    description: "A secure, full-stack contact management web application. Features CRUD for contacts, authentication, and a responsive UI. Built with Spring Boot.",
+    technologies: ["Java", "Spring Boot", "Thymeleaf", "MySQL"],
+    startDate: "Jan 2025",
+    status: "In Progress",
+    githubUrl: "https://github.com/zzorgg/SmartContactManager",
+    icon: "📱",
+    gradientFrom: "from-blue-100 to-blue-200",
+    gradientTo: "dark:from-blue-900 dark:to-blue-800"
   }
 ];

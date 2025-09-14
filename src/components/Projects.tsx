@@ -1,5 +1,6 @@
 import React from "react";
 import { SiGithub } from "react-icons/si";
+import { HiExternalLink } from "react-icons/hi";
 import { projects } from "@/data/projects";
 
 function Projects() {
@@ -58,9 +59,10 @@ function Projects() {
                       href={project.liveUrl} 
                       target="_blank" 
                       rel="noopener noreferrer" 
-                      className="inline-flex items-center gap-2 px-3 py-1 bg-blue-600 hover:bg-blue-700 text-white rounded-md transition-colors text-sm font-medium ml-2"
+                      className="inline-flex items-center gap-2 px-3 py-1 bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-md hover:bg-gray-200 dark:hover:bg-gray-700 transition-colors text-sm font-medium ml-2"
                     >
-                      <span>Live Demo</span>
+                      <HiExternalLink className="h-4 w-4" />
+                      <span>Live URL</span>
                     </a>
                   )}
                 </div>
