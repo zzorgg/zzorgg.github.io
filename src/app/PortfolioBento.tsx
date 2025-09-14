@@ -2,26 +2,6 @@
 import { cn } from "@/lib/utils";
 import React, { useState, useEffect, useRef } from "react";
 
-
-const sections = [
-  {
-    title: "About Me",
-    content: "Frontend Developer at XYZ Corp (2022–2025). Built scalable, performant web apps with React and Next.js.",
-  },
-  {
-    title: "Projects",
-    content: "Portfolio, E-commerce, Dashboard, and more. See my GitHub for details.",
-  },
-  {
-    title: "Achievements",
-    content: "Top 1% on LeetCode, Hackathon Winner, Open Source Contributor.",
-  },
-  {
-    title: "Contact",
-    content: "Email: you@example.com | LinkedIn: /in/yourprofile",
-  },
-];
-
 function PortfolioBento() {
   // State for Psyduck image hover cloud
 
@@ -110,7 +90,7 @@ function PortfolioBento() {
                 tabIndex={0}
                 title="Go to Psyduck Wikipedia page"
               >
-                <span>Hello 👋, I'm Psyduck 🦆, saif's friend 😀</span>
+                <span>Hello 👋, I&apos;m Psyduck 🦆, saif&apos;s friend 😀</span>
                   <span className="absolute -bottom-2 left-1/2 -translate-x-1/2 w-4 h-4 bg-white/90 dark:bg-black/80 border-l border-b border-border rotate-45 z-0"></span>
               </a>
               {/* Wikipedia preview appears on hover, stays until click outside */}
@@ -202,10 +182,10 @@ function PortfolioBento() {
               <span className="flex-1 h-1 bg-gradient-to-r from-blue-500 via-blue-300 to-cyan-200 rounded-full ml-4" style={{ minWidth: 60 }}></span>
             </h2>
             <div className="mt-2 text-base leading-relaxed text-muted-foreground dark:text-white/90">
-              Hey! I'm Rinkit Adhana, an undergraduate computer science student and full-stack developer who loves turning ideas into real, working products.
+              Hey! I&apos;m Rinkit Adhana, an undergraduate computer science student and full-stack developer who loves turning ideas into real, working products.
             </div>
             <div className="mt-2 text-base leading-relaxed text-muted-foreground dark:text-white/90">
-              I'm flexible working with any tech stack, though I prefer modern tools. I'm currently working with Next.js, Django, Express, and TypeScript.
+              I&apos;m flexible working with any tech stack, though I prefer modern tools. I&apos;m currently working with Next.js, Django, Express, and TypeScript.
             </div>
             <div className="mt-2 text-base leading-relaxed text-muted-foreground dark:text-white/90">
               I love contributing to open-source projects and have actively participated in multiple hackathons, where I collaborate, build, and solve real-world problems.
@@ -215,7 +195,7 @@ function PortfolioBento() {
           <div className="mt-8 w-full">
             <h3 className="text-xl font-bold mb-2">Reach Out to Me</h3>
             <div className="mb-3 text-base text-muted-foreground dark:text-white/90">
-              Most of the time, you'll find me hanging out on my Discord channel while coding. I'm also super active on X, so feel free to DM me there or reach out to me via email if you have any queries.
+              Most of the time, you&apos;ll find me hanging out on my Discord channel while coding. I&apos;m also super active on X, so feel free to DM me there or reach out to me via email if you have any queries.
             </div>
             <div className="flex flex-row gap-3 items-center">
               <a
