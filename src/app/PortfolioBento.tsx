@@ -177,7 +177,7 @@ function PortfolioBento() {
               <span className="flex-1 h-1 bg-gradient-to-r from-blue-500 via-blue-300 to-cyan-200 rounded-full ml-4" style={{ minWidth: 60 }}></span>
             </h2>
             <div className="mt-2 text-base leading-relaxed text-muted-foreground dark:text-white/90">
-               Hey! I&apos;m <u className="text-black">Saif Ali Khan</u>, I'm passionate about building and solving real-world problems through code.
+               Hey! I&apos;m <u className="text-black">Saif Ali Khan</u>, I&apos;m passionate about building and solving real-world problems through code.
             </div>
             <div className="mt-2 text-base leading-relaxed text-muted-foreground dark:text-white/90">
                I&apos;m currently focusing on backend development, learning and working with Java, Spring Boot, Go, and Ruby on Rails.
@@ -193,7 +193,7 @@ function PortfolioBento() {
           <div className="mt-8 w-full">
             <h3 className="text-xl font-bold mb-2">Reach Out to Me</h3>
             <div className="mb-3 text-base text-muted-foreground dark:text-white/90">
-              Feel free to connect with me! I'm always open to discussions.
+              Feel free to connect with me! I&apos;m always open to discussions.
             </div>
             <div className="flex flex-row gap-3 items-center">
               <a
