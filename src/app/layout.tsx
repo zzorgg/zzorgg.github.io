@@ -17,6 +17,13 @@ export const metadata: Metadata = {
   description: "Portfolio of Saif Ali Khan, a backend developer and computer science student.",
 };
 
+// Add viewport configuration for proper mobile display
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 5,
+};
+
 export default function RootLayout({
   children,
 }: Readonly<{

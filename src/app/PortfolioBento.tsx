@@ -36,25 +36,25 @@ function PortfolioBento() {
       dark ? "dark bg-background text-foreground" : "bg-background text-foreground"
     )}>
       {/* Local time top left - sticky */}
-      <div className="fixed top-0 left-0 z-50 m-6 text-xs sm:text-sm font-mono bg-card/80 px-3 py-1 rounded-md border border-border shadow">
+      <div className="fixed top-0 left-0 z-50 m-3 sm:m-4 md:m-6 text-xs sm:text-sm font-mono bg-card/80 px-2 sm:px-3 py-1 rounded-md border border-border shadow">
         {localTime}
       </div>
       
       {/* Dark/Light toggle top right - sticky */}
       <button
-        className="fixed top-0 right-0 z-50 m-6 px-3 py-2 rounded-lg border border-border bg-card text-card-foreground shadow hover:bg-muted transition flex items-center justify-center"
+        className="fixed top-0 right-0 z-50 m-3 sm:m-4 md:m-6 px-2 sm:px-3 py-2 rounded-lg border border-border bg-card text-card-foreground shadow hover:bg-muted transition flex items-center justify-center"
         onClick={() => setDark((d) => !d)}
         aria-label="Toggle dark mode"
       >
         {dark ? (
-          <HiSun className="h-5 w-5" />
+          <HiSun className="h-4 w-4 sm:h-5 sm:w-5" />
         ) : (
-          <HiMoon className="h-5 w-5" />
+          <HiMoon className="h-4 w-4 sm:h-5 sm:w-5" />
         )}
       </button>
       
       {/* Main content stack, shifted down */}
-      <div className="flex flex-col gap-6 w-full max-w-4xl mx-auto p-6 mt-24">
+      <div className="flex flex-col gap-4 sm:gap-6 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 sm:mt-20 md:mt-24">
         <Hero dark={dark} />
         <About />
         <Experience />

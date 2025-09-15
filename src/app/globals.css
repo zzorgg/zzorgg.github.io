@@ -119,4 +119,90 @@
   body {
     @apply bg-background text-foreground;
   }
+  
+  /* Ensure images are responsive by default */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Prevent horizontal scroll on small screens */
+  html, body {
+    overflow-x: hidden;
+  }
+  
+  /* Smooth scrolling */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Better touch targets for mobile */
+  @media (max-width: 640px) {
+    button, a[role="button"] {
+      min-height: 44px;
+      min-width: 44px;
+    }
+  }
+}
+
+/* Custom responsive utilities for better mobile experience */
+@media (max-width: 640px) {
+  .psyduck-speech {
+    width: 280px !important;
+    height: 300px !important;
+  }
+  
+  /* Reduce excessive padding on mobile */
+  .mobile-padding-fix {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+  
+  /* Stack elements on mobile */
+  .mobile-stack {
+    flex-direction: column !important;
+  }
+  
+  /* Center text on mobile */
+  .mobile-center {
+    text-align: center !important;
+  }
+  
+  /* Reduce font sizes slightly on very small screens */
+  @media (max-width: 360px) {
+    h1, h2, .text-3xl, .text-4xl, .text-5xl {
+      font-size: 1.5rem !important;
+    }
+    
+    .text-2xl {
+      font-size: 1.25rem !important;
+    }
+    
+    .text-xl {
+      font-size: 1.125rem !important;
+    }
+  }
+}
+
+@media (min-width: 640px) {
+  .psyduck-speech {
+    width: 520px !important;
+    height: 480px !important;
+  }
+}
+
+/* Tablet specific adjustments */
+@media (min-width: 768px) and (max-width: 1023px) {
+  /* Optimize for tablet portrait and landscape */
+  .tablet-responsive {
+    max-width: 90%;
+  }
+}
+
+/* Desktop specific adjustments */
+@media (min-width: 1024px) {
+  /* Ensure content doesn't get too wide on very large screens */
+  .desktop-max-width {
+    max-width: 1200px;
+  }
 }
